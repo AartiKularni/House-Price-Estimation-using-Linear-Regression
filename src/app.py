@@ -9,7 +9,7 @@ model = joblib.load(MODEL_PATH)
 
 # ── 2  Streamlit page settings ─────────────────────────────────
 st.set_page_config(page_title="House-Price Estimator", page_icon="🏠")
-st.title("🏠 Quick House-Price Estimator")
+st.title("Quick House-Price Estimator")
 
 # ── 3  user-controlled features ───────────────────────────────
 area  = st.slider("Living area (sq ft)",           500, 4000, 1500, step=50)
