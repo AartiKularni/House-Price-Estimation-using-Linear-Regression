@@ -2,6 +2,7 @@ _**House Price Estimator**_
 
 
 _**Overview**_
+
 A user-friendly tool that leverages Multiple Linear Regression to estimate house sale prices from living area and bathroom count. It demonstrates an end-to-end workflow:
 
 1. Data ingestion from Kaggle
